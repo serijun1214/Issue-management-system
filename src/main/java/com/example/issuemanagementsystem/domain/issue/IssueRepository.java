@@ -13,4 +13,5 @@ public interface IssueRepository {
 
     @Insert("insert into issues (summary, description) values (#{summary}, #{description})")
     void insert(String summary, String description);
+
 }
